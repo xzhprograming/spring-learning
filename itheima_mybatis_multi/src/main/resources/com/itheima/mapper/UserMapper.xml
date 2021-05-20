@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.UserMapper">
+
+    <resultMap id="userRoleMap" type="user">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="birthday" property="birthday"></result>
+
+<!--        配置roleList集合信息-->
+        <collection property="roleList" ofType="com.itheima.domain.Role">
+            <id column="id" property="id"></id>
+            <result column="rolename" property="roleName"></result>
+            <result column="roleDesc" property="roleDesc"></result>
+        </collection>
+    </resultMap>
+
+<!--    查询用户的角色-->
+    <select id="findAllUserAndRole" resultMap="userRoleMap">
+        select * from user u, sys_user_role ur, sys_role r where u.id=ur.userid and ur.roleid=r.id;
+    </select>
+
+    <resultMap id="userMap" type="user">
+        <id column="uid" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="birthday" property="birthday"></result>
+        <!--        配置集合信息
+                    property: 集合名称
+                    ofType: 当前集合中的数据类型
+                -->
+        <collection property="orderList" ofType="order">
+            <!--            封装order的数据-->
+            <id column="oid" property="id"></id>
+            <result column="ordertime" property="ordertime"></result>
+            <result column="total" property="total"></result>
+        </collection>
+    </resultMap>
+
+    <!--    // 查询用户订单数-->
+    <select id="findOrderList" resultMap="userMap">
+        select *, o.id oid
+        from user u,
+             orders o
+        where u.id = o.uid
+    </select>
+
+    <!--删除操作-->
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete
+        from user
+        where id = #{id}
+    </delete>
+
+    <!--修改操作-->
+    <update id="update" parameterType="com.itheima.domain.User">
+        update user
+        set username=#{username},
+            password=#{password}
+        where id = #{id}
+    </update>
+
+    <!--插入操作-->
+    <insert id="save" parameterType="com.itheima.domain.User">
+        insert into user
+        values (#{id}, #{username}, #{password})
+    </insert>
+
+    <!--查询操作-->
+    <select id="findAll" resultType="user">
+        select *
+        from user
+    </select>
+
+    <!--根据id进行查询-->
+    <select id="findById" resultType="user" parameterType="int">
+        select *
+        from user
+        where id = #{id}
+    </select>
+
+    <!--根据name进行查询-->
+    <select id="findByName" resultType="user" parameterType="java.lang.String">
+        select *
+        from user
+        where username like #{name}
+    </select>
+
+</mapper>
