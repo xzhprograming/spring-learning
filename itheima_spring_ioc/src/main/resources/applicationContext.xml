@@ -27,17 +27,17 @@
 
 <!--    集合数据类型注入-->
 
-    <bean id="u1" class="com.com.itheima.domain.User">
+    <bean id="u1" class="com.itheima.domain.User">
         <property name="addr" value="@qq.com"></property>
         <property name="name" value="qq"></property>
     </bean>
 
-    <bean id="u2" class="com.com.itheima.domain.User">
+    <bean id="u2" class="com.itheima.domain.User">
         <property name="addr" value="@163.com"></property>
         <property name="name" value="163"></property>
     </bean>
 
-    <bean id = "userDao" class="com.com.itheima.dao.impl.UserDaoImpl">
+    <bean id = "userDao" class="com.itheima.dao.impl.UserDaoImpl">
         <property name="username" value="zhangsan"></property>
         <property name="age" value="18"></property>
 <!--        strList集合类型注入-->

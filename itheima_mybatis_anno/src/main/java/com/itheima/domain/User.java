@@ -6,7 +6,7 @@ import java.util.List;
 public class User {
 
     private int id;
-    private String username;
+    private String name;
     private String password;
     private Date birthday;
 
@@ -25,7 +25,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", username='" + username + '\'' +
+                ", username='" + name + '\'' +
                 ", password='" + password + '\'' +
                 ", birthday=" + birthday +
                 ", orderList=" + orderList +
@@ -49,11 +49,11 @@ public class User {
     }
 
     public String getUsername() {
-        return username;
+        return name;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.name = username;
     }
 
     public String getPassword() {

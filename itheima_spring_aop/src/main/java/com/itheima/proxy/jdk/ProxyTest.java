@@ -18,7 +18,7 @@ public class ProxyTest {
         final Advice advice = new Advice();
 
         //返回值 就是动态生成的代理对象
-        TargetInterface proxy = (TargetInterface) Proxy.newProxyInstance(
+        TargetInterface1 proxy = (TargetInterface1) Proxy.newProxyInstance(
                 target.getClass().getClassLoader(), //目标对象类加载器
                 target.getClass().getInterfaces(), //目标对象相同的接口字节码对象数组
                 new InvocationHandler() {
@@ -33,8 +33,7 @@ public class ProxyTest {
         );
 
         //调用代理对象的方法
-        proxy.save();
-
+        proxy.save1();
     }
 
 }

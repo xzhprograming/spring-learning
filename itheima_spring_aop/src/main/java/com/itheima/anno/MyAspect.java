@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 @Component("myAspect")
 @Aspect //标注当前MyAspect是一个切面类
 public class MyAspect {
-
     //配置前置通知
     //@Before("execution(* com.itheima.anno.*.*(..))")
     public void before(){

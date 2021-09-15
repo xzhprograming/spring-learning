@@ -1,6 +1,12 @@
 package com.itheima.domain;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+
 public class User {
+
+    @Autowired
+    public User user;
 
     private String name;
     private int age;

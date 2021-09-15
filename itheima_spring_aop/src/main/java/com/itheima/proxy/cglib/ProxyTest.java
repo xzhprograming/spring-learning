@@ -38,8 +38,6 @@ public class ProxyTest {
 
 
         proxy.save();
-
-
     }
 
 }

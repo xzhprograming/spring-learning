@@ -9,12 +9,12 @@
 <!--    需要增加context命名空间和约束-->
     <context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
 
-    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="driverClass" value="${jdbc.driver}"></property>
-        <property name="jdbcUrl" value="${jdbc.url}"></property>
-        <property name="user" value="${jdbc.username}"></property>
-        <property name="password" value="${jdbc.password}"></property>
-    </bean>
+<!--    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+<!--        <property name="driverClass" value="${jdbc.driver}"></property>-->
+<!--        <property name="jdbcUrl" value="${jdbc.url}"></property>-->
+<!--        <property name="user" value="${jdbc.username}"></property>-->
+<!--        <property name="password" value="${jdbc.password}"></property>-->
+<!--    </bean>-->
 
 <!--    <bean id="userDao" class="com.com.itheima.dao.impl.UserDaoImpl"></bean>-->
 
