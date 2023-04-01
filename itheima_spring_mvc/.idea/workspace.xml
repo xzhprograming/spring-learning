@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ce844f7-fdd0-4bf4-aed0-5b348ebc3369" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-ioc-annoconfig/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ioc-annoconfig/src/main/java/com/xing/learnjava/Appconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ioc-annoconfig/src/main/java/com/xing/learnjava/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ioc-annoconfig/src/main/java/com/xing/learnjava/service/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ioc-annoconfig/src/main/java/com/xing/learnjava/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itheima_spring_aop/src/main/java/com/itheima/anno/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itheima_spring_aop/src/main/java/com/itheima/anno/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itheima_spring_aop/src/main/java/com/itheima/proxy/cglib/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itheima_spring_aop/src/main/java/com/itheima/proxy/cglib/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itheima_spring_aop/src/test/java/com/itheima/test/AnnoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itheima_spring_aop/src/test/java/com/itheima/test/AnnoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itheima_spring_ioc/src/main/java/com/itheima/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itheima_spring_ioc/src/main/java/com/itheima/demo/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_spring_mvc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1uqHugR6ysLQ9i77w88gD3AiwoU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ce844f7-fdd0-4bf4-aed0-5b348ebc3369" name="Default Changelist" comment="" />
+      <created>1625386423079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625386423079</updated>
+      <workItem from="1625386424212" duration="1217000" />
+      <workItem from="1625496892042" duration="1405000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
