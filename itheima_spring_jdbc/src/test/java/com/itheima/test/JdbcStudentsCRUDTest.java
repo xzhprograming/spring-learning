@@ -42,7 +42,7 @@ public class JdbcStudentsCRUDTest {
 
     @Test
     public void testInsert(){
-        jdbcTemplate.update("insert into students value (?, ?, ?, ?, ?)", "13", 2, "tom", "M", 88);
+        jdbcTemplate.update("insert into students(class_id, name, gender, score) value (?, ?, ?, ?)", 2, "tom", "M", 89);
     }
 
     @Test
